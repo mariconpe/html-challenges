@@ -1,0 +1,83 @@
+@font-face {
+    font-family: normal;
+    src: url(Jakarta.ttf);
+}
+
+@font-face {
+    font-family: italic;
+    src: url(JakartaItalic.ttf);
+}
+
+body{
+    background: #070707;
+    font-family: normal;
+    color: #55806c;
+}
+
+fieldset{
+    margin: auto;
+    margin-top: 50px;
+    width: 75%;
+    background: white;
+    border: white;
+    border-radius: 14px;
+}
+
+h1{
+    color: #553555;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.index{
+    text-align: center;
+}
+
+a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #5f4051;
+    font-size: 15px;
+}
+
+a:hover{
+    font-weight: bold;
+    color: #291B29;
+    text-decoration: overline;
+    cursor: pointer;
+}
+
+article{
+    padding: 40px 80px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+blockquote{
+    background-color: #7d747a38;
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+#photo{
+    width: 600px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: calc(50% - 300px);
+}
+
+#author{
+    width: 60px;
+    float: left;
+    margin-right: 5px;
+}
