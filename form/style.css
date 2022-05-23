@@ -1,0 +1,174 @@
+@font-face {
+    font-family: normal;
+    src: url(Jakarta.ttf);
+
+  }
+  @font-face {
+      font-family: italic;
+      src: url(JakartaItalic.ttf);
+  }  
+body{
+    background: #F9FAFC;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+legend{
+    margin: auto;
+    font-size: 50px;
+    padding-top: 110px;
+    color: #182748;
+    font-family: normal;
+    font-weight: 700;
+}
+
+.label{
+    font-family: normal;
+}
+
+.required{
+    font-family: italic;
+}
+
+small{
+    font-family: italic;
+}
+
+fieldset{
+    width: 50%;
+    margin: auto;
+    padding: 10px 60px 40px;
+    background: #42C3A7;
+    border: #42C3A7;
+    border-radius: 14px;
+
+}
+
+select{
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: normal;
+}
+option{
+    cursor: pointer;
+}
+input[type=text]{
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: normal;
+}
+input[type=email]{
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: normal;
+}
+textarea{
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    border-radius: 10px;
+    font-family: normal;
+}
+
+.container{
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+  }
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #182748;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }  
+  input[type=submit]{
+    cursor:pointer;
+    font-family: normal;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #182748;
+    color: #F9FAFC;
+    font-weight: 900;
+    font-size: 20px;
+    height: 60px;
+    width: 160px;
+    margin-left: calc(50% - 80px);
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: #e6eceb;
+    color: #182748;
+}
+
+.field{
+    margin-bottom: 10px;
+    box-align:center;
+}
