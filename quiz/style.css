@@ -1,0 +1,117 @@
+@font-face {
+    font-family: normal;
+    src: url(Jakarta.ttf);
+}
+
+body{
+    background: #11131d;
+    font-family: normal;
+    color: #079691;
+}
+
+li{
+    margin: 30px 20px;
+}
+h1{
+    color: #8f3985;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+h3{
+   font-size: 17px; 
+   margin: 30px 20px;
+}
+fieldset{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    background: white;
+    border: white;
+    border-radius: 14px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #98dfea;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  input[type=submit]{
+    cursor:pointer;
+    font-family: normal;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #25283d;
+    color: #F9FAFC;
+    font-weight: 900;
+    font-size: 20px;
+    height: 60px;
+    width: 160px;
+    margin-left: calc(50% - 80px);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: #e6eceb;
+    color: #25283d;
+}
