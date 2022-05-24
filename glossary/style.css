@@ -1,36 +1,43 @@
-body {
-    background: lightblue;
-    color: white;
-    margin: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@font-face {
+    font-family: normal;
+    src: url(Jakarta.ttf);
 }
+
+body {
+    background: #0c0d13;
+    color: #000000;
+    margin: 5%;
+    font-family: normal
+}
+
 fieldset{
     padding: 50px;
     margin: auto;
-    width: 50%;
-    background-color: black;
-    border-color: black;
+    width: 740px;
+    background-color: rgb(238, 107, 19);
+    border-color: rgb(238, 107, 19);
     border-radius: 14px;
 }
+
 h1 {
-    color:white;
+    color:#0c0d13;
     text-align: center;
-    font 
-
-}
-
-a{
-    color: #0B5A87;
-    text-decoration:none;
 }
 
 dt{
     margin: 20px 0px;
+    font-size: 19px;
+}
+
+a{
+    color: #0c0d13;
+    text-decoration:none;
 }
 
 dd{
     margin-left: 0 ;
     text-align: justify;
+    padding-bottom: 10px;
 }
 
 .pics{
