@@ -1,4 +1,4 @@
-<h1 align=center> 🚀 Rocketseat HTML Challenges 🚀 </h3>
+<h1 align=center> 🚀 Rocketseat HTML Challenges 🚀 </h1>
 
 <hr>
 
