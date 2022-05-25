@@ -15,43 +15,42 @@ body{
 }
 
 fieldset{
-    margin: auto;
-    margin-top: 50px;
-    width: 1200px;
+    margin: 50px auto auto;
+    width: 1050px;
     background: white;
     border: white;
     border-radius: 14px;
 }
 
 h1{
-    color: #553555;
-    font-weight: 100;
+    margin: 80px auto;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 100;
+    color: #553555;
 }
 
-.index{
+nav{
+    margin: 60px auto;
     text-align: center;
 }
 
 a{
     margin: 0px 20px;
+    font-size: 15px;
     text-decoration: none;
     color: #5f4051;
-    font-size: 15px;
 }
 
 a:hover{
     font-weight: bold;
-    color: #291B29;
     text-decoration: overline;
+    color: #291B29;
     cursor: pointer;
 }
 
 article{
-    padding: 40px 80px;
+    padding: 0px 80px;
 }
 
 h2{
@@ -59,25 +58,38 @@ h2{
 }
 
 blockquote{
-    background-color: #7d747a38;
-    width: 40%;
-    margin: auto;
-    margin-top: 10px;
+    width: 350px;
+    margin: 0px auto;
     text-align: center;
+    background-color: #7d747a38;
 }
+
 p{
+    margin: 25px auto;
     text-align: justify;
+}
+
+aside{
+    margin: 20px 0px 60px 80px;
 }
 
 #photo{
     width: 600px;
-    margin-top: 10px;
+    margin: 25px calc(50% - 300px);
     border-radius: 8px;
-    margin-left: calc(50% - 300px);
 }
 
 #author{
     width: 60px;
+    margin-right: 10px;
     float: left;
-    margin-right: 5px;
+}
+
+#description{
+    margin: 0px
+}
+
+footer{
+    margin: 30px 90px;
+    color: white;
 }
